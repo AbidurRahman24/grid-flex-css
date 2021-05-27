@@ -7,10 +7,22 @@ main{
     max-width: 90%;
     margin: 0 auto;
 }
+.top-title{
+    margin-top: 20px;
+}
 .top-player{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+}
+.blog{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.thumnail{
+    display:flex;
+    margin-top: 20px;
 }
 .player{
     display:flex;
@@ -21,8 +33,22 @@ main{
     width: 50px;
     height: 50px;
 }
+.thumnail img{
+    width: 100px;
+    height: 100px;
+}
+h3 {
+    margin-left: 10px;
+}
 .player h2{
     margin-left: 10px;
+}
+.course img{
+    width:200px;
+    height:100px;
+}
+.course-info{
+    display:flex
 }
 @media (max-width : 992px) {
     .top-player{
